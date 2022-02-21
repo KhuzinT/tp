@@ -13,3 +13,5 @@ mkdir name_folder
 find absolute_path -name str -exec cp --backup=numbered {}./name_folder 
 
 tar -zcf name_archive ./name_folder
+
+echo 'done'
