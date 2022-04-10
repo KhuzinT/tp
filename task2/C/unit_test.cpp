@@ -1,7 +1,7 @@
 #include "A/index.h"
 #include "B/lib.h"
 
-#include <gtest/tgest.h>
+#include <gtest/gtest.h>
 
 class ATest : public ::testing::Test {
 public:
