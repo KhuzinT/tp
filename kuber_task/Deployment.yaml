@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tp-task3
+
+spec:
+  replicas: 5 
+  selector:
+    matchLabels:
+      app: task3
+  template:
+    metadata:
+      labels:
+        app: task3
+    spec:
+      containers:
+      - name: task3
+        image: 1290129012904545/hello
+        ports: 
+        - containerPort: 8888
